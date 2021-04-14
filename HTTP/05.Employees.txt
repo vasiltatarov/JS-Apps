@@ -1,0 +1,24 @@
+#	Route	Method	Type	Full route	Description	Details
+1	/employee	GET	JSON	http://dummy.restapiexample.com/api/v1/employees	Get all employee data
+2	/employee/{id}	GET	JSON	http://dummy.restapiexample.com/api/v1/employee/1	Get a single employee data
+3	/create	POST	JSON	http://dummy.restapiexample.com/api/v1/create	Create new record in database
+4	/update/{id}	PUT	JSON	http://dummy.restapiexample.com/api/v1/update/21	Update an employee record
+5	/delete/{id}	DELETE	JSON	http://dummy.restapiexample.com/api/v1/delete/2	Delete an employee record
+
+1 - dummy.restapiexample.com/api/v1/employees
+2 - dummy.restapiexample.com/api/v1/employee/3
+3 - dummy.restapiexample.com/api/v1/create
+{
+    "employee_name": "Vasil",
+    "employee_salary": 300000,
+    "employee_age": 22,
+    "profile_image": ""
+}
+4 - dummy.restapiexample.com/api/v1/update/5920
+{
+    "employee_name": "Vasil",
+    "employee_salary": 330000,
+    "employee_age": 25,
+    "profile_image": ""
+}
+5 - dummy.restapiexample.com/api/v1/delete/3

@@ -1,0 +1,19 @@
+Get info about Bulgaria
+https://restcountries.eu/rest/v2/name/Bulgaria
+https://restcountries.eu/rest/v2/name/Bulgaria?fields=name;capital;region
+https://restcountries.eu/rest/v2/name/Bulgaria?fields=name;capital;region;area;borders;currencies;population
+
+Get info about all countries
+https://restcountries.eu/rest/v2/all
+https://restcountries.eu/rest/v2/all?fields=name;capital
+https://restcountries.eu/rest/v2/all/?fields=name;capital;region;area;borders;currencies;population
+
+Get info about all countries with germany language
+https://restcountries.eu/rest/v2/lang/de
+https://restcountries.eu/rest/v2/lang/de?fields=name;capital;region
+
+Requests to localhost
+https://localhost:3030/jsonstore/bus/
+localhost:3030/jsonstore/bus/businfo/1287
+
+localhost:3030/jsonstore/phonebook

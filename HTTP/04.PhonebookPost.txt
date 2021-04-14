@@ -1,0 +1,9 @@
+To add record use:
+Post Request - localhost:3030/jsonstore/phonebook
+
+{
+    "person": "Vasil",
+    "phone": "0894379975"
+}
+
+localhost:3030/jsonstore/phonebook
