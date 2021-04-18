@@ -4,6 +4,13 @@ function start() {
   document.getElementById('createForm').addEventListener('submit', createBook);
   document.querySelector('table').addEventListener('click', handleClickEvent);
   document.getElementById('editForm').addEventListener('submit', updateBook);
+  document
+    .querySelector('#editForm [type="button"]')
+    .addEventListener('click', (event) => {
+      document.getElementById('editForm').style.display = 'none';
+      document.getElementById('createForm').style.display = 'block';
+      event.target.reset();
+    });
 }
 
 start();
