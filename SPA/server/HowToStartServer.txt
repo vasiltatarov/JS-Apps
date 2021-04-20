@@ -1,0 +1,1 @@
+open CMD in server folder directory and write - node server.js
