@@ -23,8 +23,8 @@ async function onSubmit(ev) {
     });
 
     if (response.ok) {
-        const movie = await response.json();
-        showDetails(movie._id);
+        const data = await response.json();
+        showDetails(data._id);
     } else {
         const error = await response.json();
         alert(error.message);
