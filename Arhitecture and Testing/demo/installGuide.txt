@@ -1,0 +1,4 @@
+// package.json // npm init -y
+// npm install --save-dev playwright-chromium
+// chai // npm install --save-dev chai
+// mocha // npm install --save-dev mocha
